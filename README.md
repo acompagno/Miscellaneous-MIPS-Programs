@@ -7,4 +7,4 @@ Miscellaneous MIPS Programs
 Programs
 ========
 
-- Bubble_Sort_1.asm : Simple bubble sort algroithm that sorts an array of 10 unique integers 
+- Bubble_Sort_1.asm : Simple bubble sort algroithm that sorts an array of 10 integers 

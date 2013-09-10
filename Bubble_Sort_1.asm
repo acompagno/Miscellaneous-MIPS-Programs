@@ -3,7 +3,7 @@
 #Created By Andre Compagno
 		.data
 
-array:		.word		9,7,2,3,1,5,8,6,0,4 #Create Array 
+array:		.word		9,7,2,9,1,5,8,0,0,4 #Create Array 
 sortedText:	.asciiz		"\nSorted Array\n"
 	.text
 
@@ -39,6 +39,7 @@ main:
 		slt 	$t0 , $t1 , $t2 
 		beq	$t0 , $zero , swap
 		
+		#INCREMENT ITERATOR BY 1
 		addi	$s0 , $s0 , 1
 		
 		j loop
@@ -68,7 +69,10 @@ main:
 		#SWAP NUMBERS
 		sw	$t2 , 0($s5)
 		sw	$t1 , 0($s6)
-	
+		
+		#INCREMENT ITERATOR BY 1
+		addi	$s0 , $s0 , 1
+		
 		#GO BACK TO LOOP
 		j	loop	
 	printLoop:
