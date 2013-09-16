@@ -7,4 +7,5 @@ Miscellaneous MIPS Programs
 Programs
 ========
 
+- Hello_World.asm : Print "Hello, World!" using loops
 - Bubble_Sort_1.asm : Simple bubble sort algroithm that sorts an array of 10 integers 
