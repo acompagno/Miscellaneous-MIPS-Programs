@@ -6,10 +6,7 @@ Miscellaneous MIPS Programs
 
 Programs
 ========
-<<<<<<< HEAD
-=======
 
->>>>>>> ba089502da4f69b23f7246da550c97e6cc690bcd
 - Hello_World.asm : Print "Hello, World!" using loops
 - Bubble_Sort_1.asm : Simple bubble sort algroithm that sorts an array of 10 integers 
 - Stack_Example.asm : Populate a stack and then prints it's contents 
